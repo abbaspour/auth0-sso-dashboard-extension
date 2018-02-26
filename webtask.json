@@ -1,6 +1,6 @@
 {
-  "title": "SSO Dashboard",
-  "name": "auth0-sso-dashboard",
+  "title": "Amin SSO Dashboard",
+  "name": "amin-auth0-sso-dashboard",
   "version": "1.0.5",
   "author": "Auth0",
   "useHashName": false,
@@ -8,7 +8,7 @@
   "type": "application",
   "logoUrl": "https://cdn.auth0.com/extensions/auth0-sso-dashboard/assets/logo.svg",
   "initialUrlPath": "/admins/login",
-  "repository": "https://github.com/auth0-extensions/auth0-sso-dashboard-extension",
+  "repository": "https://github.com/abbaspour/auth0-sso-dashboard-extension",
   "keywords": [
     "auth0",
     "extension"
@@ -27,7 +27,7 @@
     },
     "TITLE": {
       "description": "Custom title for the dashboard",
-      "example": "Fabrikam SSO Dashboard",
+      "example": "Amin SSO Dashboard",
       "required": false
     },
     "CUSTOM_CSS": {

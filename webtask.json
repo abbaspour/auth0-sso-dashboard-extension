@@ -1,8 +1,8 @@
 {
   "title": "Amin SSO Dashboard",
   "name": "amin-auth0-sso-dashboard",
-  "version": "1.0.5",
-  "author": "Auth0",
+  "version": "1.0.6",
+  "author": "Amin",
   "useHashName": false,
   "description": "This extension provides your users with a dashboard for all of their applications.",
   "type": "application",

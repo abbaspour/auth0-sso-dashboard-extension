@@ -1,6 +1,6 @@
 {
-  "name": "auth0-sso-dashboard",
-  "version": "1.0.5",
+  "name": "auth0-sso-dashboard-authz",
+  "version": "1.1.0",
   "description": "This extension provides your users with a dashboard for all of their applications.",
   "engines": {
     "node": "6.2.0"
@@ -10,7 +10,7 @@
     "build": "npm run clean && npm run client:build && npm run extension:build",
     "clean": "rimraf dist",
     "client:build": "npm run clean && cross-env NODE_ENV=production webpack --config ./build/webpack/config.prod.js --colors -p",
-    "extension:build": "a0-ext build:server ./webtask.js ./dist && cp ./dist/auth0-sso-dashboard.extension.$npm_package_version.js ./build/bundle.js",
+    "extension:build": "a0-ext build:server ./webtask.js ./dist && cp ./dist/auth0-sso-dashboard-authz.extension.$npm_package_version.js ./build/bundle.js",
     "lint:js": "eslint --ignore-path .gitignore --ignore-pattern build --ignore-pattern webpack .",
     "serve:dev": "cross-env NODE_ENV=development gulp run --gulpfile ./build/gulpfile.js",
     "serve:prod": "cross-env NODE_ENV=production node index.js",
@@ -101,6 +101,7 @@
     "morgan": "^1.7.0",
     "ms": "^0.7.2",
     "nconf": "^0.8.4",
+    "npm": "^5.7.1",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
     "react-redux": "^4.4.5",

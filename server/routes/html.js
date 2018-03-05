@@ -20,7 +20,7 @@ export default () => {
     <link rel="stylesheet" type="text/css" href="https://cdn.auth0.com/manage/v0.3.1672/css/index.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.auth0.com/styleguide/4.6.13/index.min.css" />
     <% if (assets.style) { %><link rel="stylesheet" type="text/css" href="/app/<%= assets.style %>" /><% } %>
-    <% if (assets.version) { %><link rel="stylesheet" type="text/css" href="//cdn.auth0.com/extensions/auth0-sso-dashboard/assets/auth0-sso-dashboard.ui.<%= assets.version %>.css" /><% } %>
+    <% if (assets.version) { %><link rel="stylesheet" type="text/css" href="//cdn.auth0.com/extensions/auth0-sso-dashboard/assets/auth0-sso-dashboard-authz.ui.<%= assets.version %>.css" /><% } %>
     <% if (assets.customCss) { %><link rel="stylesheet" type="text/css" href="<%= assets.customCss %>" /><% } %>
   </head>
   <body>
@@ -31,8 +31,8 @@ export default () => {
     <% if (assets.vendors) { %><script type="text/javascript" src="<%= assets.vendors %>"></script><% } %>
     <% if (assets.app) { %><script type="text/javascript" src="<%= assets.app %>"></script><% } %>
     <% if (assets.version) { %>
-    <script type="text/javascript" src="//cdn.auth0.com/extensions/auth0-sso-dashboard/assets/auth0-sso-dashboard.ui.vendors.<%= assets.version %>.js"></script>
-    <script type="text/javascript" src="//cdn.auth0.com/extensions/auth0-sso-dashboard/assets/auth0-sso-dashboard.ui.<%= assets.version %>.js"></script>
+    <script type="text/javascript" src="//cdn.auth0.com/extensions/auth0-sso-dashboard/assets/auth0-sso-dashboard-authz.ui.vendors.<%= assets.version %>.js"></script>
+    <script type="text/javascript" src="//cdn.auth0.com/extensions/auth0-sso-dashboard/assets/auth0-sso-dashboard-authz.ui.<%= assets.version %>.js"></script>
     <% } %>
   </body>
   </html>

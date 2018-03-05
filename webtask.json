@@ -1,8 +1,8 @@
 {
-  "title": "Amin SSO Dashboard",
-  "name": "amin-auth0-sso-dashboard",
+  "title": "SSO Dashboard with Authorization Enabled",
+  "name": "auth0-sso-dashboard-authz",
   "version": "1.1.0",
-  "author": "Amin",
+  "author": "Amin Abbaspour",
   "useHashName": false,
   "description": "This extension provides your users with a dashboard for all of their applications.",
   "type": "application",
@@ -27,7 +27,7 @@
     },
     "TITLE": {
       "description": "Custom title for the dashboard",
-      "example": "Amin SSO Dashboard",
+      "example": "SSO Dashboard Authorization",
       "required": false
     },
     "CUSTOM_CSS": {

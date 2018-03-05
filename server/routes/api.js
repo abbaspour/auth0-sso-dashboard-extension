@@ -17,9 +17,11 @@ export default (storage) => {
     audience: config('API_AUDIENCE') || 'urn:auth0-sso-dashboard',
     credentialsRequired: false,
     onLoginSuccess: (req, res, next) => {
+      /*
       if (req.user.scope && req.user.scope.indexOf('manage:applications') > -1 && !req.user.sub.endsWith('@client')) {
         return next(new ForbiddenError('"manage:applications" scope is not allowed for endusers.'));
       }
+      */
 
       return next();
     }

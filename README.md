@@ -44,3 +44,13 @@ Customers can choose to implement their custom style, to do so the following set
 ```
 
 The CSS file has to be hosted by the customer and can be used to change the style of every component. An example can be found under [docs/theme](docs/theme).
+
+## How to Enable Authorization
+### Install Authorization Extension
+[Install](https://auth0.com/docs/extensions/authorization-extension/v2/implementation/installation) Authorization Extension v2 and [Enable API Access](https://auth0.com/docs/extensions/authorization-extension/v2/api-access)
+
+### Enable Authoirzation in SSO Dashboard
+Visit SSO  Dashboard Admin page and select "Authorization" from the top-right corner then click **Enable**.
+
+### Assign Group in Application Settings
+Now for each application, in the setting page, select appropriate Group from drop down list.
